@@ -14,16 +14,25 @@
     flex-direction: column;
     width: 1710px;
     height: 1100px;
-    background-image: url(src/111.png);
+    background-image: url(assets/111.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #texture{
-    width:1710px;
-    height:300px;
-    margin-top: -950px;
+    position: absolute;
+    width: 1710px;
+    margin-left:-730px;
+    margin-top:-250px;
+}
+
+#overlay1{
+    position:absolute;
+    width:500px;
+    margin-top: 65%;
+    margin-left:488px;
+    height:800px
 }
 
 .main1{
@@ -55,7 +64,9 @@
 #h2{
     display: flex;
     font-weight: lighter;
-
+    font-size: 35px;
+    line-height: 37px;
+    margin-bottom: 20px;
 }
 
 .all_li{
@@ -81,6 +92,7 @@
     /* margin-right:460px; */
     font-weight:bolder;
     margin-right:50px;
+    color: rgb(50, 47, 47);
 }
 li{
     margin-right:60px;
@@ -97,11 +109,15 @@ li{
 
 }
 
+#account1{
+    color: rgb(87, 84, 84);
+}
+
 #button1{
     border-radius: 40px;
     border:0;
     outline:0;
-    background-color: black;
+    background-color: rgb(68, 65, 65);
     color:white;
     height: 46px;
     width: 160px;
@@ -116,13 +132,16 @@ li{
     border-radius: 40px;
     border:0;
     outline:0;
-    background-color: black;
+    background-color: rgb(68, 65, 65);
     color:azure;
-    width:200px;
+    width:325px;
     height:46px;
     transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 15px;
+    font-size: 27px;
+    font-weight: lighter;
 }
-
 
 #button1:hover{
     background-color:grey;
@@ -140,11 +159,121 @@ li{
     color:black;
 }
 
-
 .content{
     display: flex;
     flex-direction: column;
     text-align: left;
     margin-left:-1000px;
-    margin-top:100px
+    margin-top:100px;
+    justify-content: space-between;
 }
+
+#p1{
+    color: rgb(87, 84, 84);
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+.header2{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 1710px;
+    height: 983px;
+}
+
+.main2{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imgwhole1{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+#wedding2{
+    font-family: cursive;
+    font-size: 40px;
+    /* margin-right:460px; */
+    font-weight:bolder;
+    margin-right:50px;
+    color: rgb(50, 47, 47);
+    margin-bottom: 15px;
+}
+
+.content2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+
+#button3{
+    border-radius: 40px;
+    border:0;
+    outline:0;
+    background-color: rgb(68, 65, 65);
+    color:white;
+    height: 46px;
+    width: 160px;
+    margin-top: 10px;
+    cursor:pointer;
+    font-size:27px;
+    font-weight: lighter;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+#button3:hover{
+    background-color:grey;
+}
+
+
+#header2-img{
+    margin-top: 100px;
+    width:760px;
+}
+
+
+#h2_1{
+    display: flex;
+    font-weight: lighter;
+    font-size: 35px;
+    line-height: 37px;
+    margin-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+
+.all_li2{
+    list-style: none;
+    text-decoration:  rgb(87, 84, 84) underline;
+}
+
+
+#p2{
+    margin-bottom: 20px;
+    color: rgb(87, 84, 84);
+    font-size: 15px;
+}
+
+#hi1{
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: rgb(87, 84, 84);
+}
+
+
