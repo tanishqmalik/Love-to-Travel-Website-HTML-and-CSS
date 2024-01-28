@@ -1,9 +1,32 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: comfortaa;
     box-sizing: border-box;
 
+}
+
+/* // <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 300 to 700 */
+/* // <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 300 to 700 */
+
+
+/* 
+.comfortaa-uniquifier {
+  font-family: Comfortaa;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+} */
+
+
+
+.comfortaa-header {
+    font-family: "Comfortaa";
+    font-optical-sizing: auto;
+    font-weight: 500; /* Replace <weight> with a specific value, e.g., 500 */
+    font-style: normal;
 }
 
 .header{
@@ -24,14 +47,14 @@
     position: absolute;
     width: 1710px;
     margin-left:-730px;
-    margin-top:-250px;
+    margin-top:-265px;
 }
 
 #overlay1{
     position:absolute;
     width:500px;
     margin-top: 65%;
-    margin-left:488px;
+    margin-left:508px;
     height:800px
 }
 
