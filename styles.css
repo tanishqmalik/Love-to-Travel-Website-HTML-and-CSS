@@ -317,47 +317,76 @@ li{
         text-align: left;
         /* margin-left:-1000px; */
         top:80px;
-        left: -150px;
-    
+        /* left: -150px; */
         /* margin-top:100px; */
         justify-content: space-between;
+        justify-content: center;
+        justify-items: center;
     }
 
+    .content-content1{
+        align-items: center;
+        width:1000px;
+
+    }
+
+
     #h2{
-        /* position: absolute; */
+        position: absolute;
+        top:-10px;
         display: flex;
         font-weight: lighter;
-        font-size: 15px;
-        line-height: 17px;
+        font-size: 20px;
+        line-height: 22px;
         /* margin-bottom: 20px; */
         /* bottom:90px; */
         color: rgb(55, 54, 54);
+        text-align: center;
+        left:-30px;
+
     }
 
+
     #button2{
+        position: absolute;
+        top:40px;
         border-radius: 40px;
         border:0;
         outline:0;
         background-color: rgb(68, 65, 65);
         color:azure;
-        width:200px;
-        height:26px;
+        width:225px;
+        height:36px;
         transition: background-color 0.3s ease;
         cursor: pointer;
         margin-bottom: 15px;
-        font-size: 17px;
+        font-size: 22px;
         font-weight: lighter;
+        left:-15px;
     }
+
+
+    #p1{
+        position: absolute;
+        color: rgb(87, 84, 84);
+        font-size: 13px;
+        top:85px;
+        left:-98px;
+
+    }
+
+
+
+
+
+
 
 
     #button2:hover{
         background-color:grey;
     }
 
-    #p1{
-        color: rgb(87, 84, 84);
-        font-size: 15px;
-    }
+
 }
 
 
