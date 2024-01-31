@@ -271,12 +271,10 @@ li{
         width:20px;
         
     }
-
     #h1{
         /* width:30px; */
         font-size:19px;
     }
-
     #overlay1{
         position:absolute;
         width:0;
@@ -300,7 +298,6 @@ li{
         list-style: none;
         align-items: center;
     }
-    
     .nav1{
         position: absolute;
         top:0;
@@ -310,6 +307,56 @@ li{
         display:flex;
         justify-content: center;
         justify-content: space-between;
+    }
+
+
+    .content{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        /* margin-left:-1000px; */
+        top:80px;
+        left: -150px;
+    
+        /* margin-top:100px; */
+        justify-content: space-between;
+    }
+
+    #h2{
+        /* position: absolute; */
+        display: flex;
+        font-weight: lighter;
+        font-size: 15px;
+        line-height: 17px;
+        /* margin-bottom: 20px; */
+        /* bottom:90px; */
+        color: rgb(55, 54, 54);
+    }
+
+    #button2{
+        border-radius: 40px;
+        border:0;
+        outline:0;
+        background-color: rgb(68, 65, 65);
+        color:azure;
+        width:200px;
+        height:26px;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+        margin-bottom: 15px;
+        font-size: 17px;
+        font-weight: lighter;
+    }
+
+
+    #button2:hover{
+        background-color:grey;
+    }
+
+    #p1{
+        color: rgb(87, 84, 84);
+        font-size: 15px;
     }
 }
 
