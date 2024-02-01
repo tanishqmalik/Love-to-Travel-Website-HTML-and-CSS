@@ -639,6 +639,8 @@ li{
 
 
 .p3{
+    margin-bottom: 20px;
+    color: rgb(87, 84, 84);
     font-size: 15px;
 }
 #button6{
@@ -675,6 +677,7 @@ li{
 .header4{
     /* display: flex;
     flex-direction: row; */
+    position: relative;
     background-image: url(assets/Image\ \(3\).png);
     width: 1710px;
     height: 983px;
@@ -687,49 +690,125 @@ li{
 }
 
 .main4{
+
     display: flex;
     justify-content:flex-end;
-    align-items: center;
     flex-direction: cloumn;
-    justify-items: center;
+    /* justify-items: center; */
+
 }
 
 .content4{
+    position: absolute;
     display: flex;
     flex-direction: column;
-    position: absolute;
     align-items: center;
-    margin-right: 230px;
-    margin-bottom: 210px;
-
+    justify-content: space-between;
+    width:400px;
+    right: 250px;
+    bottom:230px;
 }
 
 #wedding4{
     font-family: cursive;
     font-size: 40px;
     font-weight:bolder;
-    margin-right:50px;
     color: rgb(50, 47, 47);
-    margin-bottom: 15px;
 }
 
 #header4_h{
+
     font-size: 35px;
     color: rgb(55, 54, 54);
-    margin-top: 10px;
+    width:400px;
 }
 
 #heart3{
-    width:50px;
-    width:50px;
+    position: relative;
+    bottom:-30px;
+    width:70px;
+    height:70px;
 }
 
 #vectorimg{
-    margin-right: 200px;
-    margin-bottom: -3px;
+    position: absolute;
+    right:200px;
+    bottom:0px;
 }
 
 .header4_h2{
+    text-align: center;
+    width:400px;
     margin-top: 10px;
+}
 
+.header4_weeding{
+    text-align: center;
+    width:400px;
+}
+
+
+
+
+
+
+.header5{
+    position: relative;
+    width: 1710px;
+    height: 983px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main5-image1{
+    display: flex;
+    flex-direction: column;
+}
+.main5-image2{
+    display: flex;
+    flex-direction: column;
+}
+
+.content5{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#content5_h{
+    font-size: 35px;
+    color: rgb(55, 54, 54);
+    text-align: center;
+}
+
+#p4{
+    margin-bottom: 20px;
+    color: rgb(87, 84, 84);
+    font-size: 15px;
+}
+#button7{
+    border-radius: 40px;
+    border:0;
+    outline:0;
+    background-color: rgb(68, 65, 65);
+    color:azure;
+    width:225px;
+    height:46px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    font-size: 27px;
+    font-weight: lighter;
+}
+
+#button7:hover{
+    background-color:grey;
 }
