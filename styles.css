@@ -534,6 +534,7 @@ li{
     justify-items: center;
     align-items: center;
     flex-direction: row;
+    height: 100vh;
     /* justify-content: center; */
 }
 
@@ -644,7 +645,7 @@ li{
     font-size: 15px;
 }
 #button6{
-    margin-bottom: -216.6px;
+    margin-bottom: -256.6px;
     border:0;
     outline:0;
     background-color: rgb(28, 209, 209);
@@ -834,6 +835,11 @@ li{
 
 
 
+
+
+
+
+
 .header6{
     width: 1710px;
     height: 983px;
@@ -851,14 +857,62 @@ li{
 
 #header6-image1{
     position: relative;
-    top:60px;
-    left: 20%;
+    top:70px;
+    left: 5%;
 }
 
 #header6-image2{
-    position: relative;
-    right:-580px;
-    top:-100px;
+    position: absolute;
+    top:40%;
+    left:148.3%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
 }
 
 
+#button8{
+    border-radius: 40px;
+    border:0;
+    outline:0;
+    background-color: rgb(68, 65, 65);
+    color:white;
+    height: 46px;
+    width: 160px;
+    margin-top: 10px;
+    cursor:pointer;
+    font-size:27px;
+    font-weight: lighter;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+#button8:hover{
+    background-color:grey;
+}
+
+.all_li4{
+    list-style: none;
+    text-decoration:  rgb(87, 84, 84) underline;
+}
+
+
+.content6{
+    display: flex;
+    flex-direction: row;
+    gap:900px;
+}
+
+.content6-2ndpart{
+    position: relative;
+}
+
+
+#content6-h{
+    font-size: 40px;
+    color: rgb(55, 54, 54);
+    text-align: center;
+}
+
+.content6-h1{
+    height:40px;
+    width:200px;
+}
