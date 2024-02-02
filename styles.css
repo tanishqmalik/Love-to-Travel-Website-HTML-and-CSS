@@ -858,7 +858,7 @@ li{
 #header6-image1{
     position: relative;
     top:70px;
-    left: 5%;
+    left: -5%;
 }
 
 #header6-image2{
@@ -907,12 +907,39 @@ li{
 
 
 #content6-h{
-    font-size: 40px;
+    position: relative;
+    font-size: 36px;
     color: rgb(55, 54, 54);
     text-align: center;
+
 }
 
 .content6-h1{
-    height:40px;
-    width:200px;
+    text-align: start;
+    position: relative;
+    width: 1000px;
+    height: 206px;
+    right: -420px;
+    top:80px;
+}
+
+#heart4{
+    position: absolute;
+    bottom:340px;
+    width:70px;
+    height:70px;
+}
+
+#p5{
+    color: rgb(87, 84, 84);
+    font-size: 15px;
+}
+
+
+.content6-2ndpart{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    right: 280px;
+    gap:10px;
 }
