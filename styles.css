@@ -528,7 +528,8 @@ li{
         font-size:11px;
         align-items:center;
         left: -95px;
-        top:-300px;
+        top:-290px;
+        gap:0;
     }
     
     #account1{
