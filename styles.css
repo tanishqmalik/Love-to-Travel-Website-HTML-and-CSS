@@ -440,7 +440,8 @@ li{
 
     #menu{
         position: relative;
-        left:310px;
+        left:275px;
+
     }
 
     #menu:hover path{
@@ -526,7 +527,7 @@ li{
         flex-direction: column;
         font-size:11px;
         align-items:center;
-        left: -70px;
+        left: -95px;
         top:-300px;
     }
     
