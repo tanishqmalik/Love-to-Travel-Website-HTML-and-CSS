@@ -5,48 +5,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Love To Travel Website</title>
     <link rel ="stylesheet" href="styles.css">
+    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="body">
+
+
     <div class="header">
-        <img id="texture" src="assets/Texture@4x.png">
-        <img id="overlay1" src="assets/A1F4E9CE-7E96-45D1-A4A3-CD0008BA41B2.png">
+
+        <div class="header1-img1">
+            <img id="texture" src="assets/Texture@4x.png">
+        </div>
+
+        <div class="header1-img2">
+            <img id="overlay1" src="assets/A1F4E9CE-7E96-45D1-A4A3-CD0008BA41B2.png">
+        </div>
+        
+        
         <div class="main1">
-            <div class="main-child1">
-                <img id="heart" src="assets/icons8-heart-50.png">
-                <h1 id="h1">to travel</h1>
+
+                <div class="main-child1">
+                    <div class="main1-heading">
+                        <img id="heart" src="assets/icons8-heart-50.png">
+                        <h1 id="h1">to travel</h1>
+                    </div>
+
+                    <div class="menu-father">
+                        <svg id="menu" xmlns="http://www.w3.org/2000/svg" height="24"  viewBox="0 -960 960 960" width="24" onclick=showSidebar()><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" fill="rgb(87, 84, 84)"/> </svg>
+                    </div>
+                </div>
+
+            
+
+
+            <div class="nav1andaccount">
+
+                <div class="nav1-father">
+
+                    <nav class="nav1">
+
+                        <ul class="all_li_sidebar">
+                            <li id="li1_sidebar"><svg id="close" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" onclick=hideSidebar()><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" fill="rgb(87,84,84)"/></svg>Wedding</li>
+                            <li class="exceptli1_sidebar">destinations</li>
+                            <li class="exceptli1_sidebar">packages</li>
+                            <li class="exceptli1_sidebar">tours</li>
+                            <li class="exceptli1_sidebar">promotions</li>
+                            <li class="exceptli1_sidebar">gallery</li>
+                            <li class="exceptli1_sidebar">contact</li>
+                        </ul>
+
+                        <ul class="all_li">
+                            <li id="li1">Wedding</li>
+                            <li class="exceptli1">destinations</li>
+                            <li class="exceptli1">packages</li>
+                            <li class="exceptli1">tours</li>
+                            <li class="exceptli1">promotions</li>
+                            <li class="exceptli1">gallery</li>
+                            <li class="exceptli1">contact</li>
+                        </ul>
+
+                    </nav>
+
+                </div>
+
+
+                <div class="account">
+                    <span id=account1>create your account</span>
+                    <button id="button1">enter</button>
+                </div>
+
+            
+
+
             </div>
-            <nav class="nav1">
-                <ul class="all_li">
-                    <li id="li1">Wedding</li>
-                    <li class="exceptli1">destinations</li>
-                    <li class="exceptli1">packages</li>
-                    <li class="exceptli1">tours</li>
-                    <li class="exceptli1">promotions</li>
-                    <li class="exceptli1">gallery</li>
-                    <li class="exceptli1">contact</li>
-                </ul>
-            </nav>
-            <div class="account">
-                <span id=account1>create your account</span>
-                <button id="button1">enter</button>
-            </div>
-            <div class="content">
-                <div class="content-content1">
+        </div>
+
+
+
+
+        <div class="content">
+            <div class="content-content1">
                 <h2 id="h2">your wedding on the best<br>
                     beaches in the world
                 </h2>
-                </div>
-                <button id="button2">quote your event</button>
-                <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Dicta praesentium
-                     amet hic? Soluta vitae error voluptates,<br> hic consequatur deserunt numquam ut dolorem m
-                     aiores<br> </p>
-                </div>
+            </div>
+
+            <button id="button2">quote your event</button>
+
+            <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Dicta praesentium
+                amet hic? Soluta vitae error voluptates,<br> hic consequatur deserunt numquam ut dolorem m
+                aiores<br> 
+            </p>
         </div>
-        </div>
+
+
+
     </div>
+  
 
 
     <div class="header2">
