@@ -381,7 +381,7 @@ li{
 
 
 /* Example media query for smaller screens  425 807 */ 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 450px) {
 
 
     .header{
