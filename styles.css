@@ -381,7 +381,7 @@ li{
 
 
 /* Example media query for smaller screens  425 807 */ 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
 
 
     .header{
@@ -429,9 +429,9 @@ li{
         display: flex;
         flex-direction: row;
         align-items: center;
-        top:-490px;
+        top:-480px;
         gap: 0;
-        left:10px;
+        left:20px;
     }
 
     #menu path{
@@ -440,7 +440,7 @@ li{
 
     #menu{
         position: relative;
-        left:290px;
+        left:310px;
     }
 
     #menu:hover path{
@@ -526,7 +526,7 @@ li{
         flex-direction: column;
         font-size:11px;
         align-items:center;
-        left: -95px;
+        left: -70px;
         top:-300px;
     }
     
@@ -541,7 +541,7 @@ li{
         flex-direction: column;
         text-align: left;
         /* margin-left:-1000px; */
-        top:80px;
+        top:97px;
         left: 110px;
         /* margin-top:100px; */
         justify-content: space-between;
@@ -606,7 +606,7 @@ li{
         outline:0;
         background-color: rgb(68, 65, 65);
         color:white;
-        height: 46px;
+        height: 36px;
         width: 140px;
         margin-top: 10px;
         cursor:pointer;
