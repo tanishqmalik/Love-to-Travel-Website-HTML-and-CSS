@@ -825,6 +825,12 @@ li{
     }
 }
 
+@media screen and (max-width:439px){
+    .content3{
+        left:-44.8%;
+    }
+}
+
 
 
 
@@ -1011,13 +1017,6 @@ li{
 #button6:hover{
     background-color: rgb(11, 222, 222);
 }
-
-
-
-
-
-
-
 
 
 .header4{
