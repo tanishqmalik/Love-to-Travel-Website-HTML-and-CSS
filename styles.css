@@ -36,12 +36,12 @@
 
 .header{
     position: relative;
-    /* display: flex; */
+    /* display: flex;  */
     /* justify-items: center; */
     /* align-items: center; */
     /* justify-content: center; */
     /* flex-direction: column; */
-    /* width: 1710px; */
+    /* width: 1710px;
     /* flex-wrap: wrap; */
     height: 1100px;
     /* height: 100vh; */
@@ -175,9 +175,6 @@
 }
 
 
-
-
-
 .all_li_sidebar{
     position: fixed;
     top:0;
@@ -237,6 +234,134 @@
     }
 }
 
+@media(max-width:1623px){
+    .exceptli1, #li1{
+        display: none;
+    }
+    #menu{
+        display: block;
+        margin-top: 50px;
+    }
+}
+
+
+@media(max-width:1404px){
+    .exceptli1, #li1{
+        display: none;
+    }
+    #menu{
+        display: block;
+        margin-top: 50px;
+    }
+    .account{
+        position: relative;
+        left:-290px;
+    }
+}
+
+
+@media(max-width:1404px){
+    .exceptli1, #li1{
+        display: none;
+    }
+    #menu{
+        display: block;
+        margin-top: 50px;
+    }
+    .account{
+        position: relative;
+        left:-290px;
+    }
+}
+
+@media(max-width:1459px){
+    .exceptli1, #li1{
+        display: none;
+    }
+    #menu{
+        display: block;
+        margin-top: 50px;
+    }
+    .account{
+        position: relative;
+        left:-290px;
+    }
+}
+
+
+@media (max-width:1414px){
+    .exceptli1, #li1{
+        display: none;
+    }
+    #menu{
+        display: block;
+        margin-top: 50px;
+    }
+    .account{
+        position: relative;
+        left:-290px;
+    }
+
+    .content{
+        position: absolute;
+        margin-left:-110px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1212px){
+    .exceptli1, #li1{
+        display: none;
+    }
+    #menu{
+        display: block;
+        margin-top: 50px;
+    }
+    .account{
+        position: relative;
+        left:-290px;
+    }
+
+    .content{
+        position: absolute;
+        margin-left:-110px;
+    }
+
+    #content-content1{
+        position: relative;
+        color: rgb(55, 54, 54);
+    }
+
+    #h2{
+        position: absolute;
+        top:70px;
+        color: rgb(55, 54, 54);
+        font-size: 20px;
+
+    }
+
+
+    #button2{
+        position: absolute;
+        left:800px;
+        top:90px;
+    }
+
+    #p1{
+        display: none;
+    }
+}
+
 
 
 
@@ -254,26 +379,16 @@
 
 
 
-
-
-
-
-
-
-
-
-
 #h1{
     font-weight: lighter;
 }
 #h2{
-    position: relative;
+    /* position: relative; */
     display: flex;
     font-weight: lighter;
-    font-size: 35px;
+    font-size: 200%;
     line-height: 37px;
     margin-bottom: 20px;
-    /* bottom:90px; */
     color: rgb(55, 54, 54);
 }
 
@@ -284,8 +399,6 @@
     list-style: none;
     align-items: center;
 }
-
-
 
 
 #li1{
@@ -369,15 +482,19 @@ li{
 
     /* margin-left:-1000px; */
     top:190px;
-    left: 140px;
+    left: 120px;
     width: 480px;
     justify-content: space-between;
 }
+
+
 
 #p1{
     color: rgb(87, 84, 84);
     font-size: 15px;
 }
+
+
 
 
 /* Example media query for smaller screens  425 807 */ 
@@ -1019,12 +1136,14 @@ li{
 }
 
 
+
+
+
+
 .header4{
-    /* display: flex;
-    flex-direction: row; */
+
     position: relative;
     background-image: url(assets/Image\ \(3\).png);
-    /* width: 1710px; */
     width:100%;
     height: 100vh;
     background-size: cover;
@@ -1066,7 +1185,7 @@ li{
 #wedding4{
     font-family: cursive;
     font-size: 40px;
-    /* margin-right:460px; */
+
     font-weight:bolder;
     margin-right:50px;
     color: rgb(50, 47, 47);
@@ -1086,10 +1205,224 @@ li{
 
 
 
+
+
+/* Responsive Styles */
+@media screen and (max-width: 945px) {
+    #vectorimg {
+        width: 80%;
+        left: -34px;
+        top:150px;
+    }
+
+
+    .header4_h2{
+        top:-145px;
+        left:30px;
+    }
+
+    #wedding4{
+        font-size: 30px;
+    }
+
+    #header4_h{
+        font-size: 25px;
+    }
+
+    #heart3{
+        width:50px;
+        height: 50px;
+    }
+
+
+}
+
+@media screen and (max-width: 795px) {
+    #vectorimg {
+        width: 80%;
+        left: 14px;
+    }
+
+
+    .header4_h2{
+        top:-160px;
+        left:60px;
+    }
+    #wedding4{
+        font-size: 30px;
+    }
+
+    #header4_h{
+        font-size: 25px;
+    }
+
+    #heart3{
+        width:50px;
+        height: 50px;
+    }
+    .header4{
+        height:800px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 661px){
+    .header4{
+        height: 500px;
+    }
+
+    .header4_h2{
+        top:-130px;
+        left:60px;
+    }
+}
+
+
+@media screen and (max-width: 618px){
+    .header4{
+        height: 400px;
+    }
+
+    .header4_h2{
+        top:-130px;
+        left:60px;
+    }
+}
+
+
+
+@media screen and (max-width: 594px){
+    .header4{
+        height: 400px;
+    }
+
+    .header4_h2{
+        top:-130px;
+        left:40px;
+    }
+}
+
+
+
+@media screen and (max-width: 551px){
+
+    #vectorimg {
+        width: 80%;
+        top:104px;
+    }
+
+    .header4{
+        height: 400px;
+    }
+
+    .header4_h2{
+        top:-110px;
+        left:40px;
+    }
+
+
+    #wedding4{
+        font-size: 20px;
+    }
+
+    #header4_h{
+        font-size: 15px;
+    }
+
+    #heart3{
+        width:30px;
+        height: 30px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 453px){
+
+    #vectorimg {
+        width: 80%;
+        top:104px;
+    }
+
+    .header4{
+        height: 400px;
+    }
+
+    .header4_h2{
+        top:-100px;
+        left:40px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+    #wedding4{
+        font-size: 20px;
+    }
+
+    #header4_h{
+        font-size: 15px;
+    }
+
+    #heart3{
+        width:30px;
+        height: 30px;
+    }
+}
+
+
+@media screen and (max-width: 370px) {
+    #vectorimg {
+        width: 80%;
+        top:104px;
+    }
+
+    .header4{
+        height: 400px;
+    }
+
+    .header4_h2{
+        top:-50px;
+        left:40px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+    #wedding4{
+        font-size: 15px;
+    }
+
+    #header4_h{
+        font-size: 10px;
+    }
+
+    #heart3{
+        width:30px;
+        height: 30px;
+    }
+
+}
+
+
+
+
+
+
+
 .header5{
     position: relative;
-    width: 1710px;
-    height: 983px;
+    width: 100%;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1119,8 +1452,10 @@ li{
 }
 
 #main5-image1-child1,#main5-image1-child2,#main5-image2-child1,#main5-image2-child2{
-    height:270px;
-    width:270px;
+    /* height:270px;
+    width:270px; */
+    max-width: 100%; 
+    height: auto;
 }
 
 .content5{
@@ -1167,6 +1502,80 @@ li{
 #button7:hover{
     background-color:grey;
 }
+
+
+@media screen and (max-width: 761px) {
+    .main5-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main5-image1{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        top:-30px;
+
+    }
+
+    .main5-image2{
+        position: relative;
+        display:flex;
+        flex-direction: row;
+        top:5px;
+    }
+
+    .main5{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+
+
+    #main5-image1-child1,#main5-image1-child2,#main5-image2-child1,#main5-image2-child2{
+        height:270px;
+        width:270px;
+
+    }
+}
+
+@media screen and (max-width: 579px) {
+    .main5{
+        flex-direction: column;
+    }
+    .main5-image1,.main5-image2{
+        display: flex;
+        flex-direction: column;
+        gap:5px;
+
+    }
+
+    .main5-images{
+         gap:0px;
+    }
+
+    #main5-image1-child1,#main5-image1-child2,#main5-image2-child1,#main5-image2-child2{
+        height:150px;
+        width:150px;
+    }
+}
+
+
+@media screen and (max-width: 430px){
+    #main5-image1-child1,#main5-image1-child2,#main5-image2-child1,#main5-image2-child2{
+        height:130px;
+        width:130px;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
 
