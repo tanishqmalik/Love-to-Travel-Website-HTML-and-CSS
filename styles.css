@@ -1986,8 +1986,8 @@ li{
 
 
 #texture2-id{
-    position: relative;
-    width: 1710px;
+    position: absolute;
+    width: 100%;
     height: 390px;
     top:-100px
 /* margin-left:-730px;
@@ -2000,8 +2000,15 @@ left:-100px; */
 
 }
 
+@media screen and (max-width:1300px){
+    #texture2-id{
+        display: none;
+    }
+}
+
 
 .heart5{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2011,13 +2018,13 @@ left:-100px; */
     position: relative;
     height:70px;
     width:70px;
-    top:101px;
+    top:500px;
     left:14px;
 }
 
 #whiteheart-id1{
     position: relative;
-    top:100px;
+    top:500px;
     height:100px;
     right:-100px;
 }
@@ -2029,13 +2036,20 @@ left:-100px; */
 
 
 .header8{
-    width: 1710px;
-    height: 983px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:100px;
 }
+
+
+.content8{
+    position: absolute;
+    left:20%;
+}
+
 
 
 .content8-buttons{
@@ -2047,7 +2061,6 @@ left:-100px; */
     border: solid black;
     border-radius: 40px;
     height: 46px;
-    /* width: 160px; */
     margin-top: 20px;
     width:419px;
     background-color: white;
@@ -2069,7 +2082,6 @@ left:-100px; */
     outline:0;
     background-color: rgb(68, 65, 65);
     color:azure;
-    /* width:325px; */
     height:46px;
     transition: background-color 0.3s ease;
     cursor: pointer;
@@ -2111,13 +2123,142 @@ left:-100px; */
 }
 
 .content8-button3-father{
-    /* display: flex;
-    align-items: end;
-    justify-content: space-between;
-    justify-items: end; */
+    position: relative;
 }
 
 #content8-id{
     font-size: 35px;
     color: rgb(55, 54, 54);
+}
+
+
+
+
+#content8-button3{
+    position: absolute;
+    top:190px;
+}
+
+
+
+
+#content8-image-child{
+    position:absolute;
+    /* width:500px;
+    right:0;
+    top:270px;
+    height:800px; */
+    right: 0;
+    top:40px;
+}
+
+
+@media screen and (max-width:1603px){
+    #content8-image-child{
+        width:40%;
+        top:90px;
+    }
+
+}
+
+
+@media screen and (max-width:1500px){
+    #content8-image-child{
+        top:100px;
+    }
+}
+
+
+@media screen and (max-width:1400px){
+    #content8-image-child{
+        width:35%;
+        top:200px;
+    }
+}
+
+
+
+
+@media screen and (max-width:1294px){
+    #content8-image-child{
+        display: none;
+    }
+
+    .header8{
+        width:100%;
+        display: grid;
+        place-items: center;
+
+    }
+}
+
+
+
+@media screen and (max-width:1111px){
+
+
+    .header8{
+        width:100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+
+        justify-content: center;
+
+    }
+}
+
+
+@media screen and (max-width:832px){
+
+
+    .header8{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+
+        justify-content: center;
+        /* left:40px; */
+
+    }
+}
+
+
+@media screen and (max-width:755px){
+
+
+    .header8{
+        position: sticky;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+
+        justify-content: center;
+        /* left:40px; */
+
+    }
+}
+
+
+@media screen and (max-width:530px){
+
+
+    .header8{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+
+        justify-content: center;
+        left:-30px;
+
+    }
+}
+
+@media screen and (max-width:990px){
+    #content8-image-child{
+        display: none;
+    }
 }
