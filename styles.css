@@ -9,6 +9,8 @@
 
 .body{
     width:100%;
+
+    /* overflow: hidden; */
 }
 
 /* // <uniquifier>: Use a uniquifier for the class name
@@ -2430,3 +2432,153 @@ left:-100px; */
         left:35px;
     }
 }
+
+
+
+.header9{
+    width:100%;
+    height:60vh;
+    background-image: url("assets/Rectangle.png");
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+
+.all_li9{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    /* align-items: center; */
+    justify-content: center;
+    gap:40px;
+}
+
+#h9{
+    font-weight: lighter;
+    font-size: 58px;
+}
+.header9-content1-child{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+}
+
+.exceptli9{
+    color: rgb(87, 84, 84);
+    transition: color 0.3s ease;
+}
+
+.exceptli9:hover{
+    color:black;
+}
+
+#button9{
+    border-radius: 40px;
+    border:0;
+    outline:0;
+    background-color: rgb(68, 65, 65);
+    color:white;
+    height: 46px;
+    width: 160px;
+    margin-top: 10px;
+    cursor:pointer;
+    font-size:27px;
+    font-weight: lighter;
+    transition: background-color 0.3s ease;
+}
+
+#button9:hover{
+    background-color:grey;
+}
+
+.header9-button-enter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+}
+#account9{
+    font-size: 12px;;
+}
+
+#p9{
+    color: rgb(87, 84, 84);
+    font-size: 15px;
+}
+
+.header9-content1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap:65px;
+}
+
+#h9-content2{
+    font-size: 35px;
+    color: rgb(55, 54, 54);
+}
+
+
+#header9-content2-button9{
+    display: flex;
+    border: solid black;
+    border-radius: 40px;
+    height: 46px;
+    margin-top: 20px;
+    width:419px;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header9-content2-button:hover{
+    background-color: rgb(222, 222, 222);
+}
+
+
+.header9-content-button10{
+    border-radius: 40px;
+    border:0;
+    outline:0;
+    background-color: rgb(68, 65, 65);
+    color:azure;
+    height:46px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 15px;
+    font-size: 27px;
+    font-weight: lighter;
+    margin-top: 25px;
+    width:419px;
+}
+
+.header9-content-button10:hover{
+    background-color:grey;
+}
+
+#p10{
+    color: rgb(87, 84, 84);
+    font-size: 15px;
+}
+
+
+.header9-content2{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.header9-form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media 
