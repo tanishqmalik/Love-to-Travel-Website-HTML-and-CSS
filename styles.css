@@ -2703,6 +2703,16 @@ left:-100px; */
     }
 }
 
+@media (max-width:456px){
+    #content8-button3{
+        top:169px;
+    }
+
+    .header9{
+        height: 80vh;
+    }
+}
+
 @media all and (display-mode: fullscreen) {
     #content8-button3{
         top:220px;
