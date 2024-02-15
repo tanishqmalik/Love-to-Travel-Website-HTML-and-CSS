@@ -1,4 +1,4 @@
-# Love-to-Travel-Website-HTML-and-CSS
+# Love-to-Travel-Website-HTML-and-CSS-responsive
 ![1](https://github.com/tanishqmalik/Love-to-Travel-Website-HTML-and-CSS-responsive/assets/122337260/665554c7-d62a-4407-bd99-957a6154d2d1)
 ![2](https://github.com/tanishqmalik/Love-to-Travel-Website-HTML-and-CSS-responsive/assets/122337260/25e1828a-8af1-48ea-a0b4-018a94db1127)
 ![3](https://github.com/tanishqmalik/Love-to-Travel-Website-HTML-and-CSS-responsive/assets/122337260/efb0ef93-40a0-4c04-bde6-3aee55e5b999)
